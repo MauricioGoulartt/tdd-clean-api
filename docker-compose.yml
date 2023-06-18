@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    image: node:14-alpine
+    image: node:18-alpine
     working_dir: /app
     volumes:
       - .:/app
@@ -22,3 +22,22 @@ services:
 
 volumes:
   mongo_data:
+
+
+
+
+#   FROM node:20.2.0
+
+# WORKDIR /app
+
+# COPY package*.json ./
+# RUN npm install --production
+
+# COPY src ./src
+
+# EXPOSE 3000
+
+# CMD ["node", "src/app.js"]
+
+
+
