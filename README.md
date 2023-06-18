@@ -35,6 +35,7 @@ Você pode usar os seguintes scripts fornecidos no projeto:
 - `npm run build`: Compila os arquivos TypeScript para JavaScript.
 - `npm start`: Inicia o servidor usando os arquivos JavaScript compilados.
 - `npm run prepare`: Instala o gancho de pré-commit do Husky.
+- acesse o swagger pelo http://localhost:3000/api-docs/#/
 
 ## Estrutura do Projeto
 
