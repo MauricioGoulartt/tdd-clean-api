@@ -49,10 +49,14 @@ Os principais arquivos e diretórios neste projeto estão organizados da seguint
 
 O projeto possui as seguintes dependências principais:
 
-- `express`: Um framework web rápido e minimalista para Node.js.
-- `mongodb`: O driver oficial do MongoDB para Node.js.
-- `mongoose`: Uma ferramenta de modelagem de objetos para o MongoDB.
-- `jsonwebtoken`: Uma biblioteca para criar e verificar JSON Web Tokens (JWTs).
+- ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+- ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+- ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+- ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+- ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
+- ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+- ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+- ![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 
 Para ver a lista completa de dependências e devDependencies, consulte o arquivo `package.json`.
 
