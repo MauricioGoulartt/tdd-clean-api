@@ -1,0 +1,17 @@
+/node_modules
+/build
+/out
+
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+
+/logs
+*.log
+
+*.exe
+*.dll
+*.so
+*.dylib
