@@ -10,7 +10,7 @@ router.get('/user', userController.getUser)
 export default router
 /**
  * @swagger
- * /users/signup:
+ * /signup:
  *   post:
  *     summary: Cria um novo usuário
  *     tags: [User]
@@ -64,7 +64,7 @@ export default router
 
 /**
  * @swagger
- * /users/signin:
+ * /signin:
  *   post:
  *     summary: Autentica um usuário
  *     tags: [User]
@@ -103,7 +103,7 @@ export default router
 
 /**
  * @swagger
- * /users/user:
+ * /user:
  *   get:
  *     summary: Retorna informações do usuário autenticado
  *     tags: [User]
