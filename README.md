@@ -1,4 +1,4 @@
-# API Node Type TDD
+# API Node - Typescript, TDD e Clean Architecture.
 
 Este é um modelo de projeto de API para criar uma aplicação semelhante ao YouTube. Ele fornece um ponto de partida para construir um servidor Node.js com TypeScript, Express, MongoDB e Jest para testes. O projeto é mantido por Mauricio Goulart (mauriciogoulart.1990@gmail.com).
 
