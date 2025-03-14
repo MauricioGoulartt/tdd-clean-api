@@ -21,11 +21,11 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:3000', // Atualize a URL de acordo com o servidor da sua API
+        url: 'http://localhost:3000',
       },
     ],
   },
-  apis: [path.join(__dirname, './routes/*.ts')], // Atualize o caminho para os arquivos de rotas da sua API
+  apis: [path.join(__dirname, './routes/*.ts')],
 };
 
 const specs = swaggerJsdoc(options);
@@ -36,7 +36,7 @@ app.use(urlencoded({ extended: true }));
 
 mongoose
   .connect(process.env.MONGO_URI, {
-    w: 'majority', // majority write concern
+    w: 'majority',
   })
   .then(() => console.log('Mongo Connected!'))
   .catch((err) => console.log(err));
