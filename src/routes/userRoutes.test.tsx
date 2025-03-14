@@ -1,14 +1,12 @@
 import request from 'supertest'
-import { app, server } from '../app' // importe seu aplicativo Express
-import * as userService from '../services/userService' // Importe seu serviço de usuário
+import { app, server } from '../app'
+import * as userService from '../services/userService'
 import { ValidationError } from '../helpers/validatorError'
 
-// Crie um mock do módulo userService
 jest.mock('../services/userService')
 
 describe('POST /signup', () => {
   it('should create a new user and return 200 status code', async () => {
-    // Define o comportamento do seu serviço mockado
     (userService.signup as jest.Mock).mockResolvedValueOnce({
       id: '123',
       created_at: new Date(),
@@ -46,7 +44,6 @@ describe('POST /signup', () => {
   })
 
   it('should return 500 status code when server error occurs', async () => {
-    // Mock the userService to throw an error
     (userService.signup as jest.Mock).mockRejectedValueOnce(new ValidationError('Server error'))
 
     const response = await request(app)
